@@ -1,0 +1,5 @@
+C:\Mingw\mingw64\bin\mingw32-make.exe sim -f c:\Users\Daimeun\Desktop\folder for EVERYTHING\School\CDA 3101\Simulator\makefile --dry-run --always-make --keep-going --print-directory
+mingw32-make: Entering directory 'c:/Users/Daimeun/Desktop/folder for EVERYTHING/School/CDA 3101/Simulator'
+g++ -std=c++11  -o sim.exe sim.cpp
+mingw32-make: Leaving directory 'c:/Users/Daimeun/Desktop/folder for EVERYTHING/School/CDA 3101/Simulator'
+ 
