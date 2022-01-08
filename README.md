@@ -4,6 +4,7 @@
 * TO RUN: sim.exe x.obj
 * Register changes after each instruction are stored in log.txt
 * Final evaluation is printed
+* Default log.txt file shows the simulation of the test.asm file
 
 # MIPS Instruction Supported
 * addiu
