@@ -443,7 +443,7 @@ void simulate(vector<vector<string>> decodedInst, vector<int> dataVec, int numIn
                 i = intAddress - 1;
             }
             else {
-                cout << "Error: Invalid Jump Adress at PC " << i << endl;
+                cout << "Error: Invalid Jump Address at PC " << i << endl;
                 exit(-1);
             }
         }
@@ -461,7 +461,7 @@ void simulate(vector<vector<string>> decodedInst, vector<int> dataVec, int numIn
                     i = intAddress - 1;
                 }
                 else {
-                    cout << "Error: Invalid Branch Adress at PC " << i << endl;
+                    cout << "Error: Invalid Branch Address at PC " << i << endl;
                     exit(-1);
                 }
             }
@@ -480,7 +480,7 @@ void simulate(vector<vector<string>> decodedInst, vector<int> dataVec, int numIn
                     i = intAddress - 1;
                 }
                 else {
-                    cout << "Error: Invalid Branch Adress at PC " << i << endl;
+                    cout << "Error: Invalid Branch Address at PC " << i << endl;
                     exit(-1);
                 }
             }
@@ -505,7 +505,7 @@ void simulate(vector<vector<string>> decodedInst, vector<int> dataVec, int numIn
                 setReg(decodedInst[i][1], dataVec[intAddress]);
             }
             else {
-                cout << "Error: Invalid data address at PC " << i << endl;
+                cout << "Error: Invalid Data Address at PC " << i << endl;
                 exit(-1);
             }
 
@@ -524,7 +524,7 @@ void simulate(vector<vector<string>> decodedInst, vector<int> dataVec, int numIn
                 dataVec[intAddress] = intRt;
             }
             else {
-                cout << "Error: Invalid data address at PC " << i << endl;
+                cout << "Error: Invalid Data Address at PC " << i << endl;
                 exit(-1);
             }
         }
