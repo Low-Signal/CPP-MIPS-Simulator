@@ -1,6 +1,9 @@
 # CPP-MIPS-Simulator
 * MIPS simulator implemented with C++.
 * Translates and simulates MIPS machine language.
+* TO RUN: sim.exe x.obj
+* Register changes after each instruction are stored in log.txt
+* Final evaluation is printed
 
 # MIPS Instruction Supported
 * addiu
